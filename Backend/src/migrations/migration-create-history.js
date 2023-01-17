@@ -14,14 +14,20 @@ module.exports = {
                 primaryKey: true,
                 type: Sequelize.INTEGER
             },
+            patientId: {
+                type: Sequelize.INTEGER
+            },
             doctorId: {
                 type: Sequelize.INTEGER
             },
             clinicId: {
                 type: Sequelize.INTEGER
             },
-            specialtyId: {
-                type: Sequelize.INTEGER
+            description: {
+                type: Sequelize.TEXT
+            },
+            files: {
+                type: Sequelize.TEXT
             },
             createdAt: {
                 allowNull: false,

@@ -3,9 +3,6 @@
 module.exports = {
     async up(queryInterface, Sequelize) {
         await queryInterface.createTable('Clinics', {
-            // address: DataTypes.STRING,
-            // description: DataTypes.TEXT,
-            // image: DataTypes.STRING,
             id: {
                 allowNull: false,
                 autoIncrement: true,
